@@ -1,2 +1,5 @@
 .DS_Store
 .netlify/
+# Source files: export web-sized versions into images/ instead
+Old Portfolio Images/
+*.psd
