@@ -29,10 +29,10 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 - Case studies (5): OneCause + Raise, Bonterra / NGP VAN, Brightmont, Muse, Foreign Fields. Template: tape-label headline, the challenge, what I did, 6 to 10 big images, the result. One page each (e.g. /work/onecause/), linked from the home cards.
 
 ## Hosting and deploys
-- GitHub: bdholl/whoisbrianholl (private), branch main. Mirrors the boybjorn.com setup.
+- GitHub: bdholl/whoisbrianholl (public, like boybjorn-site), branch main. Mirrors the boybjorn.com setup. Anything committed is public: never commit drafts, client-confidential files or the source PSD folder.
 - Netlify site: whoisbrianholl (team brian-holl), https://whoisbrianholl.netlify.app, site id bd8d388f-8837-4110-afbe-d034a4d85721.
 - No build command, publish directory is the repo root. Linked via a read-only "Netlify Deploy Key" on the repo plus a GitHub webhook to api.netlify.com/hooks/github, so every push to main deploys.
-- Commits must be authored as bdholl (this repo's git config uses 94635561+bdholl@users.noreply.github.com). Netlify's free plan blocks builds of private-repo commits from unrecognized authors, such as the Mac's default hostname email.
+- Why public: Netlify's free plan blocked push builds while the repo was private ("Unrecognized Git contributor"), even with commits authored as bdholl. Public repos skip that check. Commits still use 94635561+bdholl@users.noreply.github.com (this repo's git config).
 - Visitor access: Netlify "team login" protection is ON (new-site default), so the netlify.app URL only works when logged in to Netlify. boybjorn has it off. Turn it off (Site configuration > Access & security > Visitor access) before connecting the domain.
 
 ## Source files
