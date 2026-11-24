@@ -1,6 +1,15 @@
 .DS_Store
 .netlify/
-# Source files: export web-sized versions into images/ instead
-Old Portfolio Images/
-*.psd
 .claude/
+# Source folders (originals, PSDs, PDFs, client files). Export web-sized images into images/ instead.
+Old Portfolio Images/
+Auction Packages/
+Bonterra/
+Brightmont/
+Muse/
+NGP VAN/
+_option-*.html
+*.psd
+*.ai
+*.indd
+*.pdf
