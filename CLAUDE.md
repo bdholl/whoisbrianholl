@@ -22,7 +22,6 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 
 ## Still to fill (placeholders in index.html)
 - Brightmont card image: [Brightmont catalog + tri-folds], plus "[ADD A RESULT]"
-- About: "[ONE MORE LINE ABOUT YOU]"
 - LinkedIn and Instagram links currently point to #contact
 - Open questions: trim the Muse logo tagline?, cream vs white sections
 
