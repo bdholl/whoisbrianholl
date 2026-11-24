@@ -32,14 +32,15 @@ a{color:#173A28}a:hover{color:#DD4B3B}
 @media (max-width:640px){.bh-stats{gap:32px 20px}.bh-stat-num{font-size:30px}}
 @media (prefers-reduced-motion: reduce){.bh-marquee,.bh-bird,.bh-bird2,.bh-bob,.bh-wings,.bh-wings2,.bh-cloud,.bh-grain{animation:none !important}.bh-bird{left:58%;top:36%}.bh-bird2{display:none}}
 
-.wa{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:56px 32px;max-width:1440px;margin:0 auto}
-.wa-card{text-decoration:none;color:#173A28;display:flex;flex-direction:column;gap:14px}
+.wa{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:56px 32px;max-width:1440px;margin:0 auto;padding-top:14px}
+.wa-card{text-decoration:none;color:#173A28;display:flex;flex-direction:column;background:#F9F7F2}
 .wa-card:hover{color:#173A28}.wa-card:hover .wa-name{color:#DD4B3B}
-.wa-top{position:relative;padding-top:18px}
-.wa-tape{position:absolute;top:0;left:0;right:0;margin:0 auto;width:fit-content;max-width:80%;box-sizing:border-box;text-align:center;z-index:1}
-.wa-media{display:block;overflow:hidden;background:#F3EFE7}
+.wa-top{position:relative;container-type:inline-size}
+.wa-tape{position:absolute;top:-16px;left:0;right:0;margin:0 auto;width:fit-content;max-width:92%;box-sizing:border-box;text-align:center;white-space:nowrap;z-index:1;font-size:clamp(10px,2.9cqi,14px) !important;padding:.62em 1.05em !important}
+.wa-media{display:block;overflow:hidden;background:#F9F7F2}
 .wa-img{display:block;width:100%;height:auto;aspect-ratio:5/4;object-fit:cover;transition:transform .5s ease}
 .wa-card:hover .wa-img{transform:scale(1.03)}
+.wa-body{padding:6px clamp(20px,2vw,28px) 30px;display:flex;flex-direction:column;gap:12px}
 @media (max-width:1000px){.wa{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 24px}.wa>.wa-card:last-child:nth-child(odd){grid-column:1/-1}.wa>.wa-card:last-child:nth-child(odd) .wa-img{aspect-ratio:2/1}}
 @media (max-width:640px){.wa{grid-template-columns:minmax(0,1fr);gap:44px}.wa>.wa-card:last-child:nth-child(odd) .wa-img{aspect-ratio:5/4}}
 @media (prefers-reduced-motion: reduce){.wa-img{transition:none}.wa-card:hover .wa-img{transform:none}}
@@ -107,56 +108,56 @@ a{color:#173A28}a:hover{color:#DD4B3B}
 <a href="#work" class="wa-card">
 <div class="wa-top"><div class="wa-tape" style="background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 15px; line-height: 1.2; padding: 10px 16px; transform: rotate(-2deg); ">Lead Creative Since 2014</div>
 <picture class="wa-media"><img class="wa-img" src="images/work/onecause-54.jpg" alt="OneCause pieces: Event Admin App one-sheet, Charity Event Auction guide and Giving Experience Research Study" loading="lazy"></picture></div>
-<div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px; margin-top: 6px;">OneCause + Raise</div>
-<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Lead creative partner for a nonprofit tech brand, now part of Bonterra, and eight years of the Raise Conference. The work supported nonprofits who've raised $8B+ on the platform.</div>
+<div class="wa-body"><div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px;">OneCause + Raise</div>
+<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Lead creative partner for a nonprofit tech brand, now part of Bonterra, and eight years of the Raise Conference. The work supported nonprofits who've raised $8B+ on the platform.</div></div>
 </a>
 <a href="#work" class="wa-card">
 <div class="wa-top"><div class="wa-tape" style="background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 15px; line-height: 1.2; padding: 10px 16px; transform: rotate(1.5deg); ">Lead Creative</div>
 <picture class="wa-media"><img class="wa-img" src="images/work/ngpvan-54.jpg" alt="NGP VAN guide covers: Ready, Set, GOTV, The PAC Playbook, The Official VANual, How to Win Your Local Election and The Complete Guide to Political Fundraising" loading="lazy"></picture></div>
-<div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px; margin-top: 6px;">NGP VAN</div>
-<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Lead creative for the campaign software behind progressive politics: 13 guides and playbooks, product one-pagers, paid media for PACs, C4s, unions and state and local races, social, and the launch of Navigator, its AI assistant.</div>
+<div class="wa-body"><div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px;">NGP VAN</div>
+<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Lead creative for the campaign software behind progressive politics: 13 guides and playbooks, product one-pagers, paid media for PACs, C4s, unions and state and local races, social, and the launch of Navigator, its AI assistant.</div></div>
 </a>
 <a href="#work" class="wa-card">
 <div class="wa-top"><div class="wa-tape" style="background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 15px; line-height: 1.2; padding: 10px 16px; transform: rotate(-1deg); ">7 Products, One System</div>
 <picture class="wa-media"><img class="wa-img" src="images/work/bonterra-54.jpg" alt="Bonterra pieces: EveryAction two-pager, Every Channel, One Mission guide, A Guide to Grantmaking in Life Sciences, The 30 Days Before GivingTuesday checklist and Network for Good two-pager" loading="lazy"></picture></div>
-<div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px; margin-top: 6px;">Bonterra</div>
-<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Long-form guides, a GivingTuesday checklist and seven product two-pagers across Bonterra's family of nonprofit and grantmaking software, plus paid social and display sets built from one master into every size.</div>
+<div class="wa-body"><div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px;">Bonterra</div>
+<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Long-form guides, a GivingTuesday checklist and seven product two-pagers across Bonterra's family of nonprofit and grantmaking software, plus paid social and display sets built from one master into every size.</div></div>
 </a>
 <a href="#work" class="wa-card">
 <div class="wa-top"><div class="wa-tape" style="background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 15px; line-height: 1.2; padding: 10px 16px; transform: rotate(2deg); ">Creative Director</div>
 <picture class="wa-media"><img class="wa-img" src="images/work/brightmont-54.jpg" alt="Brightmont Academy pieces: High School Program and Kindergarten Readiness flyers, One Student, One Teacher banner, SAT/ACT test prep flyer and college acceptances sheet" loading="lazy"></picture></div>
-<div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px; margin-top: 6px;">Brightmont Academy</div>
-<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Creative director for a one-to-one private school with campuses in several states: program flyers, the course catalog, enrollment and open house campaigns, email, banners and senior class merch.</div>
+<div class="wa-body"><div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px;">Brightmont Academy</div>
+<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Creative director for a one-to-one private school with campuses in several states: program flyers, the course catalog, enrollment and open house campaigns, email, banners and senior class merch.</div></div>
 </a>
 <a href="#work" class="wa-card">
 <div class="wa-top"><div class="wa-tape" style="background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 15px; line-height: 1.2; padding: 10px 16px; transform: rotate(-1.5deg); ">Brand Redesign</div>
 <picture class="wa-media"><img class="wa-img" src="images/work/muse-54.jpg" alt="Muse style guide pages and a print ad: the Muse logo, color palette and an ad reading Museum management software built with museums, for museums" loading="lazy"></picture></div>
-<div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px; margin-top: 6px;">Muse</div>
-<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Redesigned the brand for a museum management software company and built the style guide: logo, color, type, imagery and product shots. Then took it to print ads, postcards, letterhead and trade show displays.</div>
+<div class="wa-body"><div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px;">Muse</div>
+<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Redesigned the brand for a museum management software company and built the style guide: logo, color, type, imagery and product shots. Then took it to print ads, postcards, letterhead and trade show displays.</div></div>
 </a>
 <a href="#work" class="wa-card">
 <div class="wa-top"><div class="wa-tape" style="background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 15px; line-height: 1.2; padding: 10px 16px; transform: rotate(1deg); ">Creative Partner for a Nonprofit SaaS</div>
 <picture class="wa-media"><img class="wa-img" src="images/work/bloomerang-54.jpg" alt="Bloomerang campaign ads and reports" loading="lazy"></picture></div>
-<div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px; margin-top: 6px;">Bloomerang</div>
-<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Core design partner for a fast-growing nonprofit software company: campaigns, content and events, with one consistent look.</div>
+<div class="wa-body"><div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px;">Bloomerang</div>
+<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Core design partner for a fast-growing nonprofit software company: campaigns, content and events, with one consistent look.</div></div>
 </a>
 <a href="#work" class="wa-card">
 <div class="wa-top"><div class="wa-tape" style="background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 15px; line-height: 1.2; padding: 10px 16px; transform: rotate(-2deg); ">Trips Worth Bidding On</div>
 <picture class="wa-media"><img class="wa-img" src="images/work/auction-54.jpg" alt="Auction Packages one-pagers: Heart of Galway, Lisbon in Bloom, Adriatic Blue, Golden Ticket and a palm card" loading="lazy"></picture></div>
-<div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px; margin-top: 6px;">Auction Packages</div>
-<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Sales one-pagers for each travel package, the Golden Ticket raffle program, palm cards, stage cards and email for a company that builds luxury trips for nonprofit charity auctions.</div>
+<div class="wa-body"><div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px;">Auction Packages</div>
+<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Sales one-pagers for each travel package, the Golden Ticket raffle program, palm cards, stage cards and email for a company that builds luxury trips for nonprofit charity auctions.</div></div>
 </a>
 <a href="#work" class="wa-card">
 <div class="wa-top"><div class="wa-tape" style="background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 15px; line-height: 1.2; padding: 10px 16px; transform: rotate(1.5deg); ">Brand for a Festival</div>
 <picture class="wa-media"><img class="wa-img" src="images/work/euphoria-54.jpg" alt="EUPHORIA festival lineup poster" loading="lazy"></picture></div>
-<div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px; margin-top: 6px;">EUPHORIA</div>
-<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Full visual identity for an independent music and camping festival.</div>
+<div class="wa-body"><div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px;">EUPHORIA</div>
+<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">Full visual identity for an independent music and camping festival.</div></div>
 </a>
 <a href="#work" class="wa-card">
 <div class="wa-top"><div class="wa-tape" style="background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 15px; line-height: 1.2; padding: 10px 16px; transform: rotate(-1deg); ">Mexico City Exhibition</div>
 <picture class="wa-media"><source media="(min-width: 641px) and (max-width: 1000px)" srcset="images/work/viva-21.jpg"><img class="wa-img" src="images/work/viva-54.jpg" alt="¡Viva Warhol! exhibition poster" loading="lazy"></picture></div>
-<div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px; margin-top: 6px;">Casa de Copas x Warhol</div>
-<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">A poster series for ¡Viva Warhol!, an art exhibition at Casa de Copas in Mexico City.</div>
+<div class="wa-body"><div class="wa-name" style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.04em; font-size: 20px;">Casa de Copas x Warhol</div>
+<div style="font-size: 15px; line-height: 1.55; color: #2E4A3B;">A poster series for ¡Viva Warhol!, an art exhibition at Casa de Copas in Mexico City.</div></div>
 </a>
 </div>
 <div style="text-align: center; margin-top: 48px;"><a href="#work" style="display: inline-block; background: #173A28; color: #F3EFE7; text-decoration: none; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; font-size: 14px; padding: 12px 24px; box-shadow: 0 4px 10px rgba(23,58,40,0.28);">All work</a></div>
