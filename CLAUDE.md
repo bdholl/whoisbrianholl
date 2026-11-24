@@ -10,20 +10,19 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 
 ## Look (keep it)
 - Colors: forest green #173A28, cream #F3EFE7, pale sky blue, warm red #DD4B3B (tape labels, hover), acid yellow-green #EEF07A (highlight words).
-- Type: Archivo expanded (Google Fonts, wdth 125) in caps for headlines; clean grotesk body. Permanent Marker / Caveat for hand-written notes.
+- Type: Archivo expanded (Google Fonts, wdth 125) in caps for headlines; clean grotesk body. Permanent Marker for the odd hand-written accent. Brian doesn't like handwritten captions: use small Archivo caps instead (Caveat was removed).
 - Details: hand-drawn BH logo, red tape-label stickers on project cards, wavy "I think we should work together" marquee, film-grain sky hero video with a bird in motion, square buttons.
 - Must work on phones: no horizontal scroll, respect prefers-reduced-motion.
 - Selected work grid (.bh-work) must always fill the row: 3 columns on desktop, 2 under 1000px, 1 under 640px. Keep the card count a multiple of 6 (or 3 and 2) so no row has gaps. Card images use .bh-work-media (5:4, scales with the card).
-- About: images/late-night-band.jpg is Brian on guitar with Paper Route on Late Night with Seth Meyers. Brian is the guitarist right of the singer; the photo is cropped and focus-graded to put him sharpest. The Caveat caption sits below the photo with a red arrow pointing up at him. Keep text off the photo itself.
+- About: images/late-night-band.jpg is Brian on guitar with Paper Route on Late Night with Seth Meyers. Brian is the guitarist right of the singer; the photo is cropped and focus-graded to put him sharpest. The caption sits below the photo in small Archivo caps ("playing guitar" in red) with a red arrow pointing up at him. Keep text off the photo itself. Below it: brian-card.jpg and brian-denim.jpg, square crops of two film photos of Brian.
 
 ## Writing rules
 - No em dashes anywhere in copy.
 - Short, plain, confident. No hype words.
 
 ## Still to fill (placeholders in index.html)
-- Bonterra + NGP VAN card image: [Guide covers + ad set grid + Navigator logo]
 - Brightmont card image: [Brightmont catalog + tri-folds], plus "[ADD A RESULT]"
-- About: "[ONE MORE LINE ABOUT YOU]", photos "[A photo of you working]" and "[Your desk, sketches or studio]"
+- About: "[ONE MORE LINE ABOUT YOU]"
 - LinkedIn and Instagram links currently point to #contact
 - Open questions: trim the Muse logo tagline?, cream vs white sections
 
@@ -39,6 +38,7 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 
 ## Source files
 - "Old Portfolio Images/" holds the original PSDs and full-size exports (about 1.9 GB). It is gitignored, as is every *.psd: GitHub rejects files over 100 MB. Export web-sized JPG/PNG into images/ and commit those.
+- Card images built from real pieces: bonterra-guides.jpg (covers of the Every Channel, One Mission guide and the 30 Days Before GivingTuesday checklist) and onecause-pieces.jpg (Event Admin App one-sheet, Charity Event Auction guide, Giving Experience Research Study). Source PDFs live in ~/Desktop/Personal/Bonterra/ (Guides : One Pagers, and OneCause/One Sheets). Use cover pages only; never commit the PDFs.
 - The "-portfolio" files are finished collages with baked-in tape labels and text (Raise's label contains an em dash). Prefer individual pieces for the site.
 
 ## Domain (careful)
