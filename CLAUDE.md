@@ -13,6 +13,8 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 - Type: Archivo expanded (Google Fonts, wdth 125) in caps for headlines; clean grotesk body. Permanent Marker / Caveat for hand-written notes.
 - Details: hand-drawn BH logo, red tape-label stickers on project cards, wavy "I think we should work together" marquee, film-grain sky hero video with a bird in motion, square buttons.
 - Must work on phones: no horizontal scroll, respect prefers-reduced-motion.
+- Selected work grid (.bh-work) must always fill the row: 3 columns on desktop, 2 under 1000px, 1 under 640px. Keep the card count a multiple of 6 (or 3 and 2) so no row has gaps. Card images use .bh-work-media (5:4, scales with the card).
+- About: images/late-night-band.jpg is Brian on guitar with Paper Route on Late Night with Seth Meyers. Brian is the guitarist right of the singer; the photo is cropped and focus-graded to put him sharpest. The Caveat caption sits below the photo with a red arrow pointing up at him. Keep text off the photo itself.
 
 ## Writing rules
 - No em dashes anywhere in copy.
@@ -23,7 +25,7 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 - Brightmont card image: [Brightmont catalog + tri-folds], plus "[ADD A RESULT]"
 - About: "[ONE MORE LINE ABOUT YOU]", photos "[A photo of you working]" and "[Your desk, sketches or studio]"
 - LinkedIn and Instagram links currently point to #contact
-- Open questions: which guitarist Brian is in the late-night TV photo (to aim the arrow), trim the Muse logo tagline?, cream vs white sections
+- Open questions: trim the Muse logo tagline?, cream vs white sections
 
 ## Next
 - Case studies (5): OneCause + Raise, Bonterra / NGP VAN, Brightmont, Muse, Foreign Fields. Template: tape-label headline, the challenge, what I did, 6 to 10 big images, the result. One page each (e.g. /work/onecause/), linked from the home cards.

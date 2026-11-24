@@ -26,6 +26,10 @@ a{color:#173A28}a:hover{color:#DD4B3B}
 .bh-wings2{transform-box:view-box;transform-origin:60px 31px;animation:bh-flap 0.7s ease-in-out infinite}
 .bh-cloud{animation:bh-drift 26s ease-in-out infinite alternate}
 .bh-grain{animation:bh-grain 0.4s steps(2) infinite}
+.bh-work{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+@media (max-width:1000px){.bh-work{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}}
+@media (max-width:640px){.bh-work{grid-template-columns:minmax(0,1fr);gap:20px}}
+.bh-work-media{display:block;width:100%;aspect-ratio:5/4;height:auto;object-fit:cover;object-position:top}
 @media (prefers-reduced-motion: reduce){.bh-marquee,.bh-bird,.bh-bird2,.bh-bob,.bh-wings,.bh-wings2,.bh-cloud,.bh-grain{animation:none !important}.bh-bird{left:58%;top:36%}.bh-bird2{display:none}}
 </style>
 
@@ -87,46 +91,46 @@ a{color:#173A28}a:hover{color:#DD4B3B}
 
 <section id="work" style="background: #D8EBFC; padding: 40px clamp(20px, 5vw, 72px) 96px;">
 <h2 style="margin: 0 0 48px; text-align: center; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; text-transform: uppercase; font-size: clamp(36px, 5vw, 72px); line-height: 0.9; letter-spacing: -0.04em;">Selected work</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 28px;">
+<div class="bh-work">
 
 <a href="#work" style="text-decoration: none; background: #173A28; color: #F3EFE7; padding: 20px 20px 28px; display: flex; flex-direction: column; gap: 18px;">
 <div style="align-self: center; max-width: 80%; box-sizing: border-box; text-align: center; line-height: 1.2; background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; font-size: 15px; padding: 10px 16px; transform: rotate(-2deg); margin-bottom: -30px; position: relative; z-index: 1; letter-spacing: -0.04em;">Lead Creative Since 2014</div>
-<img src="images/be344b4056aa21442834c9c956d566b9.jpg" alt="OneCause marketing pieces: reports, ads and webinar graphics" style="display: block; width: 100%; height: 320px; object-fit: cover; object-position: top; background: #FFFFFF;">
+<img src="images/be344b4056aa21442834c9c956d566b9.jpg" alt="OneCause marketing pieces: reports, ads and webinar graphics" class="bh-work-media" style="background: #FFFFFF;">
 <div style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; font-size: 20px; text-transform: uppercase; letter-spacing: -0.04em;">OneCause + Raise</div>
 <div style="font-size: 15px; line-height: 1.55;">Lead creative partner for a nonprofit tech brand, now part of Bonterra, and eight years of the Raise Conference. The work supported nonprofits who've raised $8B+ on the platform.</div>
 </a>
 
 <a href="#work" style="text-decoration: none; background: #173A28; color: #F3EFE7; padding: 20px 20px 28px; display: flex; flex-direction: column; gap: 18px;">
 <div style="align-self: center; max-width: 80%; box-sizing: border-box; text-align: center; line-height: 1.2; background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; font-size: 15px; padding: 10px 16px; transform: rotate(1.5deg); margin-bottom: -30px; position: relative; z-index: 1; letter-spacing: -0.04em;">16 Guides in 6 Months</div>
-<div style="background: #FFFFFF; height: 320px; display: flex; align-items: center; justify-content: center; color: #4A5A50; font-size: 14px; border: 1px dashed #9AA79F;">[Guide covers + ad set grid + Navigator logo]</div>
+<div class="bh-work-media" style="background: #FFFFFF; display: flex; box-sizing: border-box; padding: 12px; text-align: center; align-items: center; justify-content: center; color: #4A5A50; font-size: 14px; border: 1px dashed #9AA79F;">[Guide covers + ad set grid + Navigator logo]</div>
 <div style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; font-size: 20px; text-transform: uppercase; letter-spacing: -0.04em;">Bonterra + NGP VAN</div>
 <div style="font-size: 15px; line-height: 1.55;">Contract art director for Bonterra marketing: 16 guides and playbooks in 6 months (650+ total pages), 7 product two-pagers, paid campaigns built from one master into every size, and the Navigator AI logo.</div>
 </a>
 
 <a href="#work" style="text-decoration: none; background: #173A28; color: #F3EFE7; padding: 20px 20px 28px; display: flex; flex-direction: column; gap: 18px;">
 <div style="align-self: center; max-width: 80%; box-sizing: border-box; text-align: center; line-height: 1.2; background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; font-size: 15px; padding: 10px 16px; transform: rotate(-1deg); margin-bottom: -30px; position: relative; z-index: 1; letter-spacing: -0.04em;">Creative Partner for a Nonprofit SaaS</div>
-<img src="images/f176672aee2bca7873199a442cbafae7.jpg" alt="Bloomerang campaign ads and reports" style="display: block; width: 100%; height: 320px; object-fit: cover; object-position: top; background: #FFFFFF;">
+<img src="images/f176672aee2bca7873199a442cbafae7.jpg" alt="Bloomerang campaign ads and reports" class="bh-work-media" style="background: #FFFFFF;">
 <div style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; font-size: 20px; text-transform: uppercase; letter-spacing: -0.04em;">Bloomerang</div>
 <div style="font-size: 15px; line-height: 1.55;">Core design partner for a fast-growing nonprofit software company: campaigns, content and events, with one consistent look.</div>
 </a>
 
 <a href="#work" style="text-decoration: none; background: #173A28; color: #F3EFE7; padding: 20px 20px 28px; display: flex; flex-direction: column; gap: 18px;">
 <div style="align-self: center; max-width: 80%; box-sizing: border-box; text-align: center; line-height: 1.2; background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; font-size: 15px; padding: 10px 16px; transform: rotate(2deg); margin-bottom: -30px; position: relative; z-index: 1; letter-spacing: -0.04em;">Print That Enrolls</div>
-<div style="background: #FFFFFF; height: 320px; display: flex; align-items: center; justify-content: center; color: #4A5A50; font-size: 14px; border: 1px dashed #9AA79F;">[Brightmont catalog + tri-folds]</div>
+<div class="bh-work-media" style="background: #FFFFFF; display: flex; box-sizing: border-box; padding: 12px; text-align: center; align-items: center; justify-content: center; color: #4A5A50; font-size: 14px; border: 1px dashed #9AA79F;">[Brightmont catalog + tri-folds]</div>
 <div style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; font-size: 20px; text-transform: uppercase; letter-spacing: -0.04em;">Brightmont Academy</div>
 <div style="font-size: 15px; line-height: 1.55;">Course catalog, tri-folds, school profiles and campus flyers for a one-to-one school. [ADD A RESULT]</div>
 </a>
 
 <a href="#work" style="text-decoration: none; background: #173A28; color: #F3EFE7; padding: 20px 20px 28px; display: flex; flex-direction: column; gap: 18px;">
 <div style="align-self: center; max-width: 80%; box-sizing: border-box; text-align: center; line-height: 1.2; background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; font-size: 15px; padding: 10px 16px; transform: rotate(-1.5deg); margin-bottom: -30px; position: relative; z-index: 1; letter-spacing: -0.04em;">Brand for a Festival</div>
-<img src="images/6c75fbc775dd576e860a8bd66d6d189c.jpg" alt="EUPHORIA festival lineup poster" style="display: block; width: 100%; height: 320px; object-fit: cover; object-position: top;">
+<img src="images/6c75fbc775dd576e860a8bd66d6d189c.jpg" alt="EUPHORIA festival lineup poster" class="bh-work-media">
 <div style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; font-size: 20px; text-transform: uppercase; letter-spacing: -0.04em;">EUPHORIA</div>
 <div style="font-size: 15px; line-height: 1.55;">Full visual identity for an independent music and camping festival.</div>
 </a>
 
 <a href="#work" style="text-decoration: none; background: #173A28; color: #F3EFE7; padding: 20px 20px 28px; display: flex; flex-direction: column; gap: 18px;">
 <div style="align-self: center; max-width: 80%; box-sizing: border-box; text-align: center; line-height: 1.2; background: #DD4B3B; color: #FFFFFF; font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; font-size: 15px; padding: 10px 16px; transform: rotate(1deg); margin-bottom: -30px; position: relative; z-index: 1; letter-spacing: -0.04em;">Mexico City Exhibition</div>
-<img src="images/835b028632410a78031ea125f2c9cc32.jpg" alt="¡Viva Warhol! exhibition poster" style="display: block; width: 100%; height: 320px; object-fit: cover; object-position: top;">
+<img src="images/835b028632410a78031ea125f2c9cc32.jpg" alt="¡Viva Warhol! exhibition poster" class="bh-work-media">
 <div style="font-family: 'Archivo', sans-serif; font-stretch: 125%; font-weight: 800; font-size: 20px; text-transform: uppercase; letter-spacing: -0.04em;">Casa de Copas x Warhol</div>
 <div style="font-size: 15px; line-height: 1.55;">A poster series for ¡Viva Warhol!, an art exhibition at Casa de Copas in Mexico City.</div>
 </a>
@@ -213,14 +217,13 @@ a{color:#173A28}a:hover{color:#DD4B3B}
 <a href="#about" style="align-self: flex-start; background: #173A28; color: #F3EFE7; text-decoration: none; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; font-size: 14px; padding: 12px 22px; box-shadow: 0 4px 10px rgba(23,58,40,0.28);">More about me</a>
 </div>
 <div style="flex: 1 1 520px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px;">
-<div style="grid-column: span 2; position: relative; overflow: hidden;">
-<img src="images/86e2426674699dbd0ef334ca44638f00.jpg" alt="Brian playing guitar with Paper Route on Late Night with Seth Meyers" style="display: block; width: 100%; height: 360px; object-fit: cover;">
-<div aria-hidden="true" style="position: absolute; inset: 0; background: linear-gradient(160deg, rgba(10,14,30,0.55) 0%, rgba(10,14,30,0.18) 38%, rgba(10,14,30,0) 60%);"></div>
-<div style="position: absolute; left: 26px; top: 20px; max-width: 64%; transform: rotate(-4deg); transform-origin: left top; color: #EEF07A;">
-<div style="font-family: 'Caveat', cursive; font-weight: 700; font-size: 31px; line-height: 1.05;">I also like playing guitar with my friends on late-night TV.</div>
-<svg viewBox="0 0 300 40" width="230" height="30" aria-hidden="true" style="display: block; margin-top: 2px;"><path d="M4 22 C 40 12, 80 30, 125 18 S 205 10, 240 20 C 252 24, 262 28, 268 34 M 268 34 C 262 26, 256 24, 250 24 M 268 34 C 270 26, 272 20, 276 16" fill="none" stroke="#EEF07A" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-</div>
-</div>
+<figure style="grid-column: span 2; margin: 0;">
+<img src="images/late-night-band.jpg" alt="Brian on guitar with Paper Route, playing Late Night with Seth Meyers" width="1400" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 8 / 5; object-fit: cover; object-position: 65% 50%;">
+<figcaption style="position: relative; display: flex; justify-content: flex-end; padding: 6px 0 0;">
+<div style="flex: 1; text-align: right; text-wrap: balance; font-family: 'Caveat', cursive; font-weight: 700; font-size: clamp(22px, 2.2vw, 29px); line-height: 1.05; color: #173A28; transform: rotate(-2deg); padding: 10px 40px 0 0; margin-right: 31%;">I also like playing guitar with my friends on <span style="white-space: nowrap;">late-night</span> TV.</div>
+<svg viewBox="0 0 60 70" width="52" height="60" aria-hidden="true" style="position: absolute; left: 63%; top: -14px;"><path d="M8 64 C 34 60, 44 40, 38 8 M 38 8 C 33 16, 29 19, 24 22 M 38 8 C 42 16, 46 20, 52 23" fill="none" stroke="#DD4B3B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+</figcaption>
+</figure>
 <div style="background: #D8EBFC; height: 240px; display: flex; align-items: center; justify-content: center; color: #173A28; font-size: 14px; border: 1px dashed #173A28; text-align: center; padding: 12px;">[A photo of you working]</div>
 <div style="background: #D8EBFC; height: 240px; display: flex; align-items: center; justify-content: center; color: #173A28; font-size: 14px; border: 1px dashed #173A28; text-align: center; padding: 12px;">[Your desk, sketches or studio]</div>
 </div>
