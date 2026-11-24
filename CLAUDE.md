@@ -32,6 +32,7 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 - GitHub: bdholl/whoisbrianholl (private), branch main. Mirrors the boybjorn.com setup.
 - Netlify site: whoisbrianholl (team brian-holl), https://whoisbrianholl.netlify.app, site id bd8d388f-8837-4110-afbe-d034a4d85721.
 - No build command, publish directory is the repo root. Linked via a read-only "Netlify Deploy Key" on the repo plus a GitHub webhook to api.netlify.com/hooks/github, so every push to main deploys.
+- Commits must be authored as bdholl (this repo's git config uses 94635561+bdholl@users.noreply.github.com). Netlify's free plan blocks builds of private-repo commits from unrecognized authors, such as the Mac's default hostname email.
 - Visitor access: Netlify "team login" protection is ON (new-site default), so the netlify.app URL only works when logged in to Netlify. boybjorn has it off. Turn it off (Site configuration > Access & security > Visitor access) before connecting the domain.
 
 ## Source files
