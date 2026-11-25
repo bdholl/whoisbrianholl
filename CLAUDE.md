@@ -21,6 +21,8 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 
 - "AI is my assistant" section (#how) is a bento board (.hb grid): green headline tile (headline clamp(32px, 4.6vw, 72px), about 66px at 1440 wide, sized so the tile fills without a gap; headline + paragraph kept together, gap 28px), blue "AI handles / I handle" split, yellow Faster turnarounds tile with an animated master-to-sizes SVG, white More options tile with a 3x3 sketch grid and a red ring that draws itself, red Still one of a kind tile with a spinning "Designed by a human, finished by hand" BH stamp. 4 columns on desktop, 2 under 1000px, 1 under 640px. Keep the yellow and white tiles compact (grid max 200px, SVG max 250px) so the headline tile doesn't stretch into an empty gap. All animation stops under prefers-reduced-motion.
 
+- Motion (Brian chose both sets): one inline script at the end of body adds html.mo, never under prefers-reduced-motion or without IntersectionObserver, so with no JS the page is static. Scroll reveal: headings, stats, cards (staggered per row), bento tiles, Play images and About photos rise in; tapes slap on; stats count up and red dashes draw in. Kinetic: hero headline, paragraph and buttons slide in on load; card images parallax (about 26px); cards lift on hover and tapes wiggle; Trusted by logos are a 38s ticker with faded edges (clones are aria-hidden), paused on hover; bento tiles tilt toward the mouse. Elements get .done after their reveal so hover and tilt don't inherit stagger delays.
+
 ## Writing rules
 - No em dashes anywhere in copy.
 - Short, plain, confident. No hype words.
