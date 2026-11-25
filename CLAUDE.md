@@ -41,7 +41,7 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 - Netlify site: whoisbrianholl (team brian-holl), https://whoisbrianholl.netlify.app, site id bd8d388f-8837-4110-afbe-d034a4d85721.
 - No build command, publish directory is the repo root. Linked via a read-only "Netlify Deploy Key" on the repo plus a GitHub webhook to api.netlify.com/hooks/github, so every push to main deploys.
 - Why public: Netlify's free plan blocked push builds while the repo was private ("Unrecognized Git contributor"), even with commits authored as bdholl. Public repos skip that check. Commits still use 94635561+bdholl@users.noreply.github.com (this repo's git config).
-- Visitor access: Netlify "team login" protection is ON (new-site default), so the netlify.app URL only works when logged in to Netlify. boybjorn has it off. Turn it off (Site configuration > Access & security > Visitor access) before connecting the domain.
+- Visitor access: public. Netlify team-login protection was turned off on 2026-11-25 when the site went live (matches boybjorn).
 
 ## Source files
 - "Old Portfolio Images/" holds the original PSDs and full-size exports (about 1.9 GB). It is gitignored, as is every *.psd: GitHub rejects files over 100 MB. Export web-sized JPG/PNG into images/ and commit those.
@@ -50,5 +50,6 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 - The "-portfolio" files are finished collages with baked-in tape labels and text (Raise's label contains an em dash). Prefer individual pieces for the site.
 
 ## Domain (careful)
-- whoisbrianholl.com currently on Squarespace; the Squarespace website plan ends Dec 1, 2026.
+- Netlify site has custom_domain whoisbrianholl.com with alias www.whoisbrianholl.com (same setup as boybjorn). DNS is managed in Squarespace Domains (nameservers ns-cloud-e1..e4.googledomains.com). Target records: A @ 75.2.60.5 and CNAME www whoisbrianholl.netlify.app, replacing the Squarespace Defaults (4 A records 198.185.159.144/145 and 198.49.23.144/145, CNAME www ext-sq.squarespace.com). The Squarespace website plan ends Dec 1, 2026.
+- Email records to keep exactly as they are: 5 Google MX (aspmx.l.google.com priority 1, alt1/alt2 priority 5, alt3/alt4 priority 10) and 2 google-site-verification TXT records.
 - When pointing the domain at Netlify, change only the A record and www record. Never touch MX or TXT records: they carry me@whoisbrianholl.com email.
