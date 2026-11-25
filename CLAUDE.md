@@ -4,7 +4,7 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 
 ## Positioning
 - Headline: "Art director. Human ideas, faster." AI is the assistant, not the art director. Every idea and final call is Brian's.
-- Clients/work and roles: OneCause + Raise (lead creative since 2014), NGP VAN (lead creative), Bonterra (guides, two-pagers, paid social across its product brands), Brightmont Academy (creative director), Muse (brand redesign and style guide), Bloomerang (core design partner), Auction Packages (client), Foreign Fields (Brian's band, 75M+ streams), Casa de Copas x Warhol. EUPHORIA lives in the Play section now. Music: Foreign Fields, Boy Bjorn (About text links to foreignfields.net and boybjorn.com).
+- Clients/work and roles: OneCause + Raise (lead creative since 2014), NGP VAN (lead creative), Bonterra (guides, two-pagers, paid social across its product brands), Brightmont Academy (creative director), Muse (brand redesign and style guide), Bloomerang (core design partner), Auction Packages (client), Foreign Fields (Brian's band, 75M+ streams), Casa de Copas x Warhol. EUPHORIA lives in the Other work section now. Music: Foreign Fields, Boy Bjorn (About text links to foreignfields.net and boybjorn.com).
 - The $8B+ figure belongs to the OneCause platform (nonprofits raised it). Never word it as money Brian raised.
 - Contact: me@whoisbrianholl.com, Milwaukee, WI.
 
@@ -30,7 +30,7 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 
 ## Still to fill (placeholders in index.html)
 - LinkedIn and Instagram links currently point to #contact
-- Play: Wildewood image is images/wildewood.jpg (the old file had a dark line baked into its bottom row).
+- Other work section (id #play, renamed from "Play" because it includes client work): Wildewood image is images/wildewood.jpg (the old file had a dark line baked into its bottom row).
 - Open questions: trim the Muse logo tagline?, cream vs white sections
 
 ## Next
@@ -45,7 +45,7 @@ Plain static site (index.html + images/). No build step. Hosted on Netlify from 
 
 ## Source files
 - "Old Portfolio Images/" holds the original PSDs and full-size exports (about 1.9 GB). It is gitignored, as is every *.psd: GitHub rejects files over 100 MB. Export web-sized JPG/PNG into images/ and commit those.
-- Work card art lives in images/work/{brand}-54.jpg (1200x960, 5:4) plus viva-21.jpg for the wide tablet slot. Each is the brand's real pieces (Muse: Thank you NLM ad, children's museum print ad, sky print ad) (cover pages or finished PNG exports) fanned on cream with soft shadows; Viva is a full-bleed poster; foreignfields-54.jpg fans three album covers (Anywhere But Where I Am, What It Cost, Take Cover) cut from the vinyl mockups in ~/Sites/foreignfields-site/images; EUPHORIA's poster is images/euphoria-poster.jpg in Play; Bloomerang fans three ads from the Bloomerang/ folder (screenshots, edges trimmed 2px). Brand source folders (NGP VAN, Bonterra, Brightmont, Muse, Auction Packages, ~11 GB) sit in the project root and are gitignored along with *.pdf, *.psd, *.ai, *.indd.
+- Work card art lives in images/work/{brand}-54.jpg (1200x960, 5:4) plus viva-21.jpg for the wide tablet slot. Each is the brand's real pieces (Muse: Thank you NLM ad, children's museum print ad, sky print ad) (cover pages or finished PNG exports) fanned on cream with soft shadows; Viva is a full-bleed poster; foreignfields-54.jpg fans three album covers (Anywhere But Where I Am, What It Cost, Take Cover) cut from the vinyl mockups in ~/Sites/foreignfields-site/images; EUPHORIA's poster is images/euphoria-poster.jpg in Other work; Bloomerang fans three ads from the Bloomerang/ folder (screenshots, edges trimmed 2px). Brand source folders (NGP VAN, Bonterra, Brightmont, Muse, Auction Packages, ~11 GB) sit in the project root and are gitignored along with *.pdf, *.psd, *.ai, *.indd.
 - Copy facts from the source folders: NGP VAN 13 guides/playbooks (PAC Playbook, Win Your Local Election, VANual, MiniVANual, Quick Start, GOTV, Moment-based fundraising, Complete guide to political fundraising, Coalition, Volunteer Recruitment, Tectonica distributed organizing, 2026 Election Prep Checklist, 50 Fundraising Ideas) plus Navigator AI launch socials; Bonterra 3 long-form guides + 7 product two-pagers (EveryAction, Network for Good, CyberGrants, Deed, DonorDrive, Que, OneCause).
 - The "-portfolio" files are finished collages with baked-in tape labels and text (Raise's label contains an em dash). Prefer individual pieces for the site.
 
